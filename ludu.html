@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ludu.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/028faf7b6f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>ludo game</title>
+  </head>
+  <body>
+    <div class="player1">
+      <h1>🎲 <br />Player 1</h1>
+      <div class="progress1"></div>
+      <h3 class="percentage1">100%</h3>
+      <button class="btn1 btn hidden">Roll dice</button>
+    </div>
+    <div class="player4">
+      <h1>🎲 <br />Player 4</h1>
+      <div class="progress4"></div>
+      <h3 class="percentage4">100%</h3>
+      <button class="btn4 btn hidden">Roll dice</button>
+    </div>
+    <div class="ludu-board">
+      <div class="red">
+        <div class="red-inner">
+          <div class="R-P1"></div>
+          <div class="R-P2"></div>
+          <div class="R-P3"></div>
+          <div class="R-P4"></div>
+        </div>
+      </div>
+      <div class="red-teritory">
+        <div class="R-A">
+          <div class="R-A1">
+            <div class="R-A1-tokenR hidden Re"></div>
+            <div class="R-A1-tokenG hidden Gr"></div>
+            <div class="R-A1-tokenB hidden Bl"></div>
+            <div class="R-A1-tokenY hidden Go"></div>
+          </div>
+          <div class="R-A2">
+            <div class="R-A2-tokenR hidden Re"></div>
+            <div class="R-A2-tokenG hidden Gr"></div>
+            <div class="R-A2-tokenB hidden Bl"></div>
+            <div class="R-A2-tokenY hidden Go"></div>
+          </div>
+          <div class="R-A3">
+            <div class="R-A3-tokenR hidden Re"></div>
+            <div class="R-A3-tokenG hidden Gr"></div>
+            <div class="R-A3-tokenB hidden Bl"></div>
+            <div class="R-A3-tokenY hidden Go"></div>
+          </div>
+          <div class="R-A4">
+            <div class="R-A4-tokenR hidden Re"></div>
+            <div class="R-A4-tokenG hidden Gr"></div>
+            <div class="R-A4-tokenB hidden Bl"></div>
+            <div class="R-A4-tokenY hidden Go"></div>
+          </div>
+          <div class="R-A5">
+            <div class="R-A5-tokenR hidden Re"></div>
+            <div class="R-A5-tokenG hidden Gr"></div>
+            <div class="R-A5-tokenB hidden Bl"></div>
+            <div class="R-A5-tokenY hidden Go"></div>
+          </div>
+          <div class="R-A6">
+            <div class="R-A6-tokenR hidden Re"></div>
+            <div class="R-A6-tokenG hidden Gr"></div>
+            <div class="R-A6-tokenB hidden Bl"></div>
+            <div class="R-A6-tokenY hidden Go"></div>
+          </div>
+        </div>
+
+        <div class="R-B">
+          <div class="R-B1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="R-B2">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="R-B3">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="R-B4">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="R-B5">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="R-B6">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+        </div>
+
+        <div class="R-C">
+          <div class="R-C1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="R-C1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="R-C1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="R-C1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="R-C1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="R-C1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+        </div>
+      </div>
+      <div class="blue">
+        <div class="blue-inner">
+          <div class="B-P1"></div>
+          <div class="B-P2"></div>
+          <div class="B-P3"></div>
+          <div class="B-P4"></div>
+        </div>
+      </div>
+      <div class="green-teritory">
+        <div class="G-A">
+          <div class="G-A1">
+            <div class="G-A1-tokenR hidden Re"></div>
+            <div class="G-A1-tokenG hidden Gr"></div>
+            <div class="G-A1-tokenB hidden Bl"></div>
+            <div class="G-A1-tokenY hidden Go"></div>
+          </div>
+          <div class="G-A2">
+            <div class="G-A2-tokenR hidden Re"></div>
+            <div class="G-A2-tokenG hidden Gr"></div>
+            <div class="G-A2-tokenB hidden Bl"></div>
+            <div class="G-A2-tokenY hidden Go"></div>
+          </div>
+          <div class="G-A3">
+            <div class="G-A3-tokenR hidden Re"></div>
+            <div class="G-A3-tokenG hidden Gr"></div>
+            <div class="G-A3-tokenB hidden Bl"></div>
+            <div class="G-A3-tokenY hidden Go"></div>
+          </div>
+          <div class="G-A4">
+            <div class="G-A4-tokenR hidden Re"></div>
+            <div class="G-A4-tokenG hidden Gr"></div>
+            <div class="G-A4-tokenB hidden Bl"></div>
+            <div class="G-A4-tokenY hidden Go"></div>
+          </div>
+          <div class="G-A5">
+            <div class="G-A5-tokenR hidden Re"></div>
+            <div class="G-A5-tokenG hidden Gr"></div>
+            <div class="G-A5-tokenB hidden Bl"></div>
+            <div class="G-A5-tokenY hidden Go"></div>
+          </div>
+          <div class="G-A6">
+            <div class="G-A6-tokenR hidden Re"></div>
+            <div class="G-A6-tokenG hidden Gr"></div>
+            <div class="G-A6-tokenB hidden Bl"></div>
+            <div class="G-A6-tokenY hidden Go"></div>
+          </div>
+        </div>
+        <div class="G-B">
+          <div class="G-B1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="G-B2">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="G-B3">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="G-B4">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="G-B5">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="G-B6">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+        </div>
+        <div class="G-C">
+          <div class="G-C1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="G-C2">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="G-C3">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="G-C4">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="G-C5">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="G-C6">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+        </div>
+      </div>
+      <div class="green">
+        <div class="green-inner">
+          <div class="G-P1"></div>
+          <div class="G-P2"></div>
+          <div class="G-P3"></div>
+          <div class="G-P4"></div>
+        </div>
+      </div>
+      <div class="center">
+        <div class="center2">
+          <div class="two hidden"><i class="fa-solid fa-dice-two"></i></div>
+          <div class="six hidden"><i class="fa-solid fa-dice-six"></i></div>
+          <div class="three hidden"><i class="fa-solid fa-dice-three"></i></div>
+          <div class="one hidden"><i class="fa-solid fa-dice-one"></i></div>
+          <div class="four hidden"><i class="fa-solid fa-dice-four"></i></div>
+          <div class="five hidden"><i class="fa-solid fa-dice-five"></i></div>
+          <div class="start"><button class="btn5 btn">Play</button></div>
+        </div>
+      </div>
+      <div class="gold-teritory">
+        <div class="Y-A">
+          <div class="Y-C6">
+            <div class="Y-A6-tokenR hidden Re"></div>
+            <div class="Y-A6-tokenG hidden Gr"></div>
+            <div class="Y-A6-tokenB hidden Bl"></div>
+            <div class="Y-A6-tokenY hidden Go"></div>
+          </div>
+          <div class="Y-C5">
+            <div class="Y-A5-tokenR hidden Re"></div>
+            <div class="Y-A5-tokenG hidden Gr"></div>
+            <div class="Y-A5-tokenB hidden Bl"></div>
+            <div class="Y-A5-tokenY hidden Go"></div>
+          </div>
+          <div class="Y-C4">
+            <div class="Y-A4-tokenR hidden Re"></div>
+            <div class="Y-A4-tokenG hidden Gr"></div>
+            <div class="Y-A4-tokenB hidden Bl"></div>
+            <div class="Y-A4-tokenY hidden Go"></div>
+          </div>
+          <div class="Y-C3">
+            <div class="Y-A3-tokenR hidden Re"></div>
+            <div class="Y-A3-tokenG hidden Gr"></div>
+            <div class="Y-A3-tokenB hidden Bl"></div>
+            <div class="Y-A3-tokenY hidden Go"></div>
+          </div>
+          <div class="Y-C2">
+            <div class="Y-A2-tokenR hidden Re"></div>
+            <div class="Y-A2-tokenG hidden Gr"></div>
+            <div class="Y-A2-tokenB hidden Bl"></div>
+            <div class="Y-A2-tokenY hidden Go"></div>
+          </div>
+          <div class="Y-C1">
+            <div class="Y-A1-tokenR hidden Re"></div>
+            <div class="Y-A1-tokenG hidden Gr"></div>
+            <div class="Y-A1-tokenB hidden Bl"></div>
+            <div class="Y-A1-tokenY hidden Go"></div>
+          </div>
+        </div>
+
+        <div class="Y-B">
+          <div class="Y-B6">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="Y-B5">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="Y-B4">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="Y-B3">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="Y-B2">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="Y-B1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+        </div>
+
+        <div class="Y-C">
+          <div class="Y-A6">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="Y-A5">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="Y-A4">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="Y-A3">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="Y-A2">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="Y-A1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+        </div>
+      </div>
+      <div class="blue-teritory">
+        <div class="B-A">
+          <div class="B-A6">
+            <div class="B-A6-tokenR hidden Re"></div>
+            <div class="B-A6-tokenG hidden Gr"></div>
+            <div class="B-A6-tokenB hidden Bl"></div>
+            <div class="B-A6-tokenY hidden Go"></div>
+          </div>
+          <div class="B-A5">
+            <div class="B-A5-tokenR hidden Re"></div>
+            <div class="B-A5-tokenG hidden Gr"></div>
+            <div class="B-A5-tokenB hidden Bl"></div>
+            <div class="B-A5-tokenY hidden Go"></div>
+          </div>
+          <div class="B-A4">
+            <div class="B-A4-tokenR hidden Re"></div>
+            <div class="B-A4-tokenG hidden Gr"></div>
+            <div class="B-A4-tokenB hidden Bl"></div>
+            <div class="B-A4-tokenY hidden Go"></div>
+          </div>
+          <div class="B-A3">
+            <div class="B-A3-tokenR hidden Re"></div>
+            <div class="B-A3-tokenG hidden Gr"></div>
+            <div class="B-A3-tokenB hidden Bl"></div>
+            <div class="B-A3-tokenY hidden Go"></div>
+          </div>
+          <div class="B-A2">
+            <div class="B-A2-tokenR hidden Re"></div>
+            <div class="B-A2-tokenG hidden Gr"></div>
+            <div class="B-A2-tokenB hidden Bl"></div>
+            <div class="B-A2-tokenY hidden Go"></div>
+          </div>
+          <div class="B-A1">
+            <div class="B-A1-tokenR hidden Re"></div>
+            <div class="B-A1-tokenG hidden Gr"></div>
+            <div class="B-A1-tokenB hidden Bl"></div>
+            <div class="B-A1-tokenY hidden Go"></div>
+          </div>
+        </div>
+        <div class="B-B">
+          <div class="B-B6">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="B-B5">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="B-B4">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="B-B3">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="B-B2">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="B-B1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+        </div>
+        <div class="B-C">
+          <div class="B-C6">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="B-C5">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="B-C4">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="B-C3">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="B-C2">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+          <div class="B-C1">
+            <div class="R-A-token1 hidden"></div>
+            <div class="G-A-token1 hidden"></div>
+            <div class="B-A-token1 hidden"></div>
+            <div class="Y-A-token1 hidden"></div>
+          </div>
+        </div>
+      </div>
+      <div class="gold">
+        <div class="gold-inner">
+          <div class="Y-P1"></div>
+          <div class="Y-P2"></div>
+          <div class="Y-P3"></div>
+          <div class="Y-P4"></div>
+        </div>
+      </div>
+    </div>
+    <div class="player2">
+      <h1>
+        🎲<br />
+        Player 2
+      </h1>
+      <div class="progress2"></div>
+      <h3 class="percentage2">0%</h3>
+      <button class="btn2 btn hidden">Roll dice</button>
+    </div>
+
+    <div class="player3">
+      <h1>
+        🎲 <br />
+        Player 3
+      </h1>
+      <div class="progress3"></div>
+      <h3 class="percentage3">0%</h3>
+      <button class="btn3 btn hidden">Roll dice</button>
+    </div>
+
+    <script src="ludu.js"></script>
+  </body>
+</html>

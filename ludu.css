@@ -1,0 +1,1139 @@
+body {
+  background-color: rgba(12, 10, 10, 0.992);
+}
+
+/* player1 */
+.player1 {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  left: 25px;
+  top: 38px;
+  border-radius: 4rem;
+  background-color: rgba(40, 37, 37, 0.561);
+}
+
+.player,
+h1 {
+  font-family: "poppins", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  padding: 20px 0 0 10px;
+}
+
+.progress1,
+.progress2,
+.progress3,
+.progress4 {
+  width: 200px;
+  height: 10px;
+  background-color: rgb(80, 84, 87);
+  border-radius: 10px;
+  margin: auto;
+}
+
+.player,
+h3 {
+  font-family: "poppins", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.player2 {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  left: 1240px;
+  bottom: 1290px;
+  border-radius: 4rem;
+  background-color: rgba(40, 37, 37, 0.561);
+}
+
+.player2 .progress {
+  background-color: rgb(19, 138, 65);
+}
+.player3 {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  left: 1240px;
+  bottom: 1085px;
+  border-radius: 4rem;
+  background-color: rgba(40, 37, 37, 0.561);
+}
+
+.player3 .progress {
+  background-color: gold;
+}
+
+.player4 {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  left: 25px;
+  top: 230px;
+  border-radius: 4rem;
+  background-color: rgba(40, 37, 37, 0.561);
+}
+
+.player4 .progress {
+  background-color: blue;
+}
+
+/* sizing the main board*/
+.ludu-board {
+  width: 780px;
+  height: 780px;
+  border: solid 2px;
+  position: relative;
+  bottom: 520px;
+  margin: auto;
+}
+/* styling the center */
+
+.center {
+  width: 156px;
+  height: 156px;
+  border: solid 1px;
+  /* background-color: cornflowerblue; */
+  position: relative;
+  left: 311px;
+  bottom: 1091px;
+}
+
+.center2 {
+  width: 154px;
+  height: 154px;
+  border: solid 1px;
+  background-color: rgb(225, 221, 215);
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+}
+
+/* styling the homes */
+.red {
+  height: 310px;
+  width: 310px;
+  border: solid 1px;
+  background-color: red;
+}
+
+.red-inner {
+  height: 240px;
+  width: 240px;
+  border-radius: 25px;
+  border: solid 3px;
+  background-color: rgba(40, 37, 37, 0.561);
+  position: relative;
+  top: 35px;
+  left: 33px;
+}
+
+.blue {
+  height: 310px;
+  width: 310px;
+  border: solid 1px;
+  background-color: blue;
+}
+
+.blue-inner {
+  height: 240px;
+  width: 240px;
+  border-radius: 25px;
+  border: solid 3px;
+  background-color: rgba(40, 37, 37, 0.561);
+  position: relative;
+  top: 35px;
+  left: 33px;
+}
+.gold {
+  height: 310px;
+  width: 310px;
+  border: solid 1px;
+  background-color: gold;
+  position: relative;
+  left: 468px;
+  bottom: 1558px;
+}
+
+.gold-inner {
+  height: 240px;
+  width: 240px;
+  border-radius: 25px;
+  border: solid 3px;
+  background-color: rgba(40, 37, 37, 0.561);
+  position: relative;
+  top: 35px;
+  left: 33px;
+}
+
+.green {
+  height: 310px;
+  width: 310px;
+  border: solid 1px;
+  background-color: rgb(19, 138, 65);
+  position: relative;
+  left: 468px;
+  bottom: 1090px;
+}
+
+.green-inner {
+  height: 240px;
+  width: 240px;
+  border-radius: 25px;
+  border: solid 3px;
+  background-color: rgba(40, 37, 37, 0.561);
+  position: relative;
+  top: 35px;
+  left: 33px;
+}
+
+/* sizing the teritiory  and center divs */
+.red-teritory {
+  width: 312px;
+  height: 156px;
+  background-color: rgb(220, 205, 205);
+}
+
+.green-teritory {
+  height: 310px;
+  width: 156px;
+  display: flex;
+  position: relative;
+  left: 310px;
+  bottom: 774px;
+}
+
+.gold-teritory {
+  width: 310px;
+  height: 156px;
+  background-color: rgb(220, 205, 205);
+  position: relative;
+  left: 468px;
+  bottom: 1248px;
+}
+
+.blue-teritory {
+  height: 310px;
+  width: 156px;
+  display: flex;
+  position: relative;
+  left: 310px;
+  bottom: 1242px;
+}
+
+/* styling the players */
+
+/* red players */
+
+.R-P1 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: red;
+  position: relative;
+  top: 80px;
+  left: 25px;
+}
+
+.R-P2 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: red;
+  position: relative;
+  bottom: 15px;
+  left: 120px;
+}
+
+.R-P3 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: red;
+  position: relative;
+  top: 35px;
+  left: 170px;
+}
+
+.R-P4 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: red;
+  position: relative;
+  top: 50px;
+  left: 80px;
+}
+
+/* gold players */
+
+.Y-P1 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: gold;
+  position: relative;
+  top: 55px;
+  left: 170px;
+}
+
+.Y-P2 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: gold;
+  position: relative;
+  top: 50px;
+  left: 18px;
+}
+
+.Y-P3 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: gold;
+  position: relative;
+
+  top: 20px;
+  left: 35px;
+}
+
+.Y-P4 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: gold;
+  position: relative;
+
+  bottom: 15px;
+  left: 120px;
+}
+
+/* green players */
+
+.G-P1 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: rgb(19, 138, 65);
+  position: relative;
+  top: 10px;
+  left: 17px;
+}
+
+.G-P2 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: rgb(19, 138, 65);
+  position: relative;
+  top: 0px;
+  left: 18px;
+}
+
+.G-P3 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: rgb(19, 138, 65);
+  position: relative;
+
+  top: 20px;
+  left: 35px;
+}
+
+.G-P4 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: rgb(19, 138, 65);
+  position: relative;
+
+  bottom: 15px;
+  left: 120px;
+}
+
+/* blue players */
+.B-P1 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: blue;
+  position: relative;
+  top: 55px;
+  left: 170px;
+}
+
+.B-P2 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: blue;
+  position: relative;
+  top: 20px;
+  left: 18px;
+}
+
+.B-P3 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: blue;
+  position: relative;
+
+  top: 20px;
+  left: 35px;
+}
+
+.B-P4 {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: blue;
+  position: relative;
+
+  bottom: 15px;
+  left: 12px;
+}
+
+/* styling the paths in the tertories */
+
+/* the paths of red teritory */
+/* The A path */
+.R-A {
+  width: 312px;
+  height: 52px;
+  display: flex;
+  /* border: solid 1px; */
+}
+
+.R-A1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.R-A2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: red;
+}
+
+.R-A3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.R-A4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.R-A5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.R-A6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+/* The  B paths */
+.R-B {
+  width: 312px;
+  height: 52px;
+  display: flex;
+  /* border: solid 1px; */
+}
+
+.R-B1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.R-B2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: red;
+}
+
+.R-B3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: red;
+}
+
+.R-B4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: red;
+}
+
+.R-B5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: red;
+}
+
+.R-B6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: red;
+}
+
+/* the C paths */
+.R-C {
+  width: 312px;
+  height: 52px;
+  display: flex;
+  /* border: solid 1px; */
+}
+
+.R-C1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.R-C2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.R-C3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.R-C4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.R-C5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.R-C6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+/* the paths of gold teritory */
+/* The A path */
+.Y-A {
+  width: 312px;
+  height: 52px;
+  display: flex;
+  /* border: solid 1px; */
+}
+
+.Y-A1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.Y-A2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: gold;
+}
+
+.Y-A3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.Y-A4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.Y-A5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.Y-A6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+/* The  B paths */
+.Y-B {
+  width: 312px;
+  height: 52px;
+  display: flex;
+  /* border: solid 1px; */
+}
+
+.Y-B1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.Y-B2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: gold;
+}
+
+.Y-B3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: gold;
+}
+
+.Y-B4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: gold;
+}
+
+.Y-B5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: gold;
+}
+
+.Y-B6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: gold;
+}
+
+/* the C paths */
+.Y-C {
+  width: 312px;
+  height: 52px;
+  display: flex;
+  /* border: solid 1px; */
+}
+
+.Y-C1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.Y-C2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.Y-C3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.Y-C4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.Y-C5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.Y-C6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+/* the paths of blue teritory */
+/* The A path */
+
+.B-A {
+  height: 312px;
+  width: 52px;
+  /* background-color: aqua; */
+  position: relative;
+  left: 2px;
+  bottom: 6px;
+}
+
+.B-A6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+.B-A5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+.B-A4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+.B-A3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+.B-A2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: blue;
+}
+
+.B-A1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+/* the path B */
+
+.B-B {
+  height: 312px;
+  width: 52px;
+  background-color: rgb(220, 205, 205);
+  position: relative;
+  left: 2px;
+  bottom: 6px;
+}
+
+.B-B6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: blue;
+}
+
+.B-B5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: blue;
+}
+
+.B-B4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: blue;
+}
+
+.B-B3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: blue;
+}
+
+.B-B2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: blue;
+}
+
+.B-B1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+/* the path C */
+.B-C {
+  height: 312px;
+  width: 52px;
+  background-color: rgb(220, 205, 205);
+  position: relative;
+  left: 2px;
+  bottom: 6px;
+}
+
+.B-C6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+.B-C5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+.B-C4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+.B-C3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+.B-C2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+.B-C1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+/* the paths of green teritory */
+/* The A path */
+
+.G-A {
+  height: 312px;
+  width: 52px;
+  background-color: rgb(220, 205, 205);
+  position: relative;
+  left: 2px;
+  bottom: 6px;
+}
+
+.G-A1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.G-A2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.G-A3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.G-A4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.G-A5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.G-A6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+/* the path B */
+
+.G-B {
+  height: 312px;
+  width: 52px;
+  /* background-color: aqua; */
+  position: relative;
+  left: 2px;
+  bottom: 6px;
+}
+
+.G-B1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(220, 205, 205);
+}
+
+.G-B2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(19, 138, 65);
+}
+
+.G-B3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(19, 138, 65);
+}
+
+.G-B4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(19, 138, 65);
+}
+
+.G-B5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(19, 138, 65);
+}
+
+.G-B6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(19, 138, 65);
+}
+
+/* the path C */
+.G-C {
+  height: 312px;
+  width: 52px;
+  background-color: rgb(220, 205, 205);
+  position: relative;
+  left: 2px;
+  bottom: 6px;
+}
+
+.G-C1 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.G-C2 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+  background-color: rgb(19, 138, 65);
+}
+
+.G-C3 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.G-C4 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.G-C5 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+.G-C6 {
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+/* coding the tokens */
+
+/*  tokens at red teritory */
+.Re {
+  width: 30px;
+  height: 30px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: red;
+  position: relative;
+  left: 7px;
+  top: 7px;
+}
+
+.Gr {
+  width: 30px;
+  height: 30px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: rgb(19, 138, 65);
+  position: relative;
+  left: 7px;
+  top: 7px;
+}
+
+.Bl {
+  width: 30px;
+  height: 30px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: blue;
+  position: relative;
+  left: 7px;
+  top: 7px;
+}
+
+.Go {
+  width: 30px;
+  height: 30px;
+  border: solid 2px;
+  border-radius: 25rem;
+  background-color: gold;
+  position: relative;
+  left: 7px;
+  top: 7px;
+}
+
+/* the hidden class */
+.hidden {
+  display: none;
+}
+
+/* setting the dice roll */
+.btn {
+  position: relative;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  color: black;
+  background: none;
+  border: none;
+  font-family: "Ubuntu", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 900;
+  transition: all 0.2s;
+
+  padding: 3px 10px;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.btn::first-letter {
+  font-size: 1.4rem;
+}
+
+.btn:active {
+  transform: translate(-50%, 3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn1 {
+  background-color: red;
+}
+
+.btn2 {
+  background-color: rgb(19, 138, 65);
+}
+
+.btn3 {
+  background-color: gold;
+}
+
+.btn4 {
+  background-color: rgb(30, 30, 239);
+}
+
+/* styling the dice */
+
+.four,
+.three,
+.two,
+.one,
+.six,
+.five {
+  width: 50px;
+  height: 50px;
+  border-radius: solid 2px;
+  margin: auto;
+  position: relative;
+  top: 40px;
+  right: 3px;
+  border-radius: 5px;
+}
+
+i {
+  font-size: 4rem;
+}
+
+.start {
+  position: relative;
+  top: 70px;
+}
+
+.btn5 {
+  background-color: black;
+  color: antiquewhite;
+}
